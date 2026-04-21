@@ -503,27 +503,6 @@ az vmss create \
 - ✅ Enable Microsoft Defender for Cloud
 - ✅ Regular backup testing and disaster recovery drills
 
-## 💰 Cost Optimization
-
-### Estimated Monthly Cost (East US Region)
-
-| Resource | Quantity | Estimated Cost |
-|----------|----------|----------------|
-| VMs (Standard_B2s) | 2 | ~$60 |
-| Load Balancer (Standard) | 1 | ~$25 |
-| Storage (RAGRS, 100GB) | 1 | ~$15 |
-| Log Analytics (5GB/day) | 1 | ~$12 |
-| Recovery Services | 1 | ~$10 |
-| Key Vault | 1 | ~$3 |
-| **Total** | | **~$125/month** |
-
-### Cost Reduction Tips
-
-1. **Use Reserved Instances**: Save up to 72% on VMs
-2. **Auto-shutdown VMs**: Configure shutdown schedules for dev/test
-3. **Right-size VMs**: Monitor and adjust VM sizes
-4. **Use Azure Spot VMs**: For non-critical workloads
-5. **Enable storage lifecycle policies**: Move old data to cool/archive tiers
 
 ## 📚 Additional Resources
 
